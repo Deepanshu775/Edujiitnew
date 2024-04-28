@@ -1,0 +1,54 @@
+.programs {
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.uprogram {
+    flex-basis: 30%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.uprogram img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.caption {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 15, 152, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.4s ease; /* Add transition for smooth opacity change */
+    padding-top:70%;
+
+}
+
+.caption img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.uprogram:hover .caption {
+    opacity: 1; /* Show caption on hover */
+    padding-top:0%;
+}
+.uprogram:hover {
+    transform: scale(1.3);
+}

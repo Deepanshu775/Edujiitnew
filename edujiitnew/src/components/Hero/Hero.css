@@ -1,0 +1,33 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: url('../../assets/assets/jiitlarge.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center; /* Fix typo: align-items */
+    justify-content: center;
+}
+.hero-text {
+    text-align: center; /* Align text center horizontally */
+    max-width: 800px;
+    margin: auto; /* Center the div horizontally */
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items vertically */
+}
+
+.hero-text h1 {
+    font-size:50px;
+    font-weight:600;
+    color:yellow;
+}
+
+.hero-text p {
+    max-width:700px;
+    margin:10px auto 20px;
+    line-height:1.4;
+    color:white;
+
+}
